@@ -721,19 +721,29 @@ MODAL PENCERE */
 
 .subscribe-modal {
   color: #ffffff;
-  max-width: 453px;
-  margin-left: 100px;
+  width: 453px;
+  height: 80px;
+  top: 100px;
+  left: 828px;
+  border-radius: -4%;
+  border: 1px;
   display: flex;
+ 
 }
 
 .subscribe-label {
+  width: 77px;
+  height: 24px;
+  top: 100px;
+  left: 828px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
+  text-align: center;
   display: block;
   margin-bottom: 14px;
+  
 }
 
 .subs-email {
@@ -760,14 +770,16 @@ MODAL PENCERE */
 .subs-button {
   background-color: #4d5ae5;
   color: #ffffff;
+  width: 165px;
+  height: 40px;
+  top: 140px;
+  left: 1116px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   letter-spacing: -4%;
   text-align: left;
   justify-content: center;
-  width: 165px;
-  height: 40px;
   border-radius: 4px;
   border: none;
   margin: auto;
@@ -775,7 +787,7 @@ MODAL PENCERE */
   padding: 8px 24px;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subs-button:hover {
@@ -783,5 +795,7 @@ MODAL PENCERE */
 }
 
 .icon-send {
-  margin-left: 14px;
+  width: 24px;
+  height: 24px;
+  
 }
